@@ -1,0 +1,181 @@
+# .gitignore for Agriculture Advisory System
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Flask
+instance/
+.webassets-cache
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Machine Learning Models
+models/*.pkl
+models/*.h5
+models/*.joblib
+*.model
+*.weights
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Static files (generated)
+static/dist/
+static/build/
+
+# Database migrations (keep structure, ignore data)
+migrations/versions/*.pyc
+
+# Cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node modules (if using any JS build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Audio files (voice processing)
+*.wav
+*.mp3
+*.ogg
+temp_audio/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Documentation builds
+docs/_build/
+site/
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pyenv
+.python-version
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Redis dump
+dump.rdb
+
+# Local development
+*.local
+
+# Production configurations
+docker-compose.prod.yml
+kubernetes-prod/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Voice processing temporary files
+speech_temp/
+tts_temp/
+
+# Screenshots (except documentation)
+screenshots/*.png
+!screenshots/demo-*.png
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+
+# Configuration backups
+config.backup
+settings.backup
