@@ -1,1 +1,0 @@
-# Agriculture_advisory_system
